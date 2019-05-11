@@ -1,0 +1,36 @@
+[{
+	"id": 6058560,
+	"name": "London",
+	"country": "CA",
+	"coord": {
+		"lon": -81.23304,
+		"lat": 42.983391
+	}
+},
+{
+	"id": 1819729,
+	"name": "Hong Kong",
+	"country": "HK",
+	"coord": {
+		"lon": 114.157692,
+		"lat": 22.285521
+	}
+},
+{
+	"id": 3530597,
+	"name": "Mexico City",
+	"country": "MX",
+	"coord": {
+		"lon": -99.127663,
+		"lat": 19.428471
+	}
+},
+{
+	"id": 5128638,
+	"name": "New York",
+	"country": "US",
+	"coord": {
+		"lon": -75.499901,
+		"lat": 43.000351
+	}
+}]

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Fit Gerardo Hernandez</title>
+    <script src="scripts.js"></script>
+
+<style type="text/css">
+
+
+</style>
+
+</head>
+<body>
+    
+	
+	<br>
+	
+	<h3>Datos de ciudades y su clima</h3>
+	
+	<br>
+   <form id="FormCity" name="FormCity">
+
+        <select id="city" name="city" onChange="getCityData(); return false;" >
+        </select>
+		
+   </form>
+   
+   <hr />
+   
+   <div>
+   
+   <p>Fecha de hoy: <span id="today"></span> .</p>
+   <p>Nombre de la ciudad: <span id="cityName"></span> .</p>
+   <p>Temperatura (F°): <span id="farenheit"></span> .</p>
+   <p>Temperatura (C°): <span id="celsius"></span> .</p>
+   <p>Descripción del clima: <span id="overallDescription"></span> .</p>
+   <p>Amanecer: <span id="sunrise"></span> .</p>
+   <p>Atardecer: <span id="sunset"></span> .</p>
+   <p>La hora de amanecer y atardecer están dadas en la hora local del equipo donde se ejecuta el api.</p>
+   </div>
+   
+
+</body>
+
+
+<script type="text/javascript">
+populateCities();
+</script>
+
+</html>
